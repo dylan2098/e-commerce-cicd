@@ -40,6 +40,6 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install python3-certbot-nginx
 sudo certbot --nginx -d domain.example.com
-sudo certbot renew --dry-run
+sudo certbot renew --dry-run #lệnh tự động gia hạn domain
 sudo systemctl status certbot.timer
 ```
